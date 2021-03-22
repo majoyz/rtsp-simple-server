@@ -115,7 +115,7 @@ func writeTempFile(byts []byte) (string, error) {
 
 func testProgram(conf string) (*program, bool) {
 	if conf == "" {
-		return newProgram([]string{})
+		return NewProgram([]string{})
 	}
 
 	tmpf, err := writeTempFile([]byte(conf))
@@ -124,7 +124,7 @@ func testProgram(conf string) (*program, bool) {
 	}
 	defer os.Remove(tmpf)
 
-	return newProgram([]string{tmpf})
+	return NewProgram([]string{tmpf})
 }
 
 var serverCert = []byte(`-----BEGIN CERTIFICATE-----
@@ -193,7 +193,7 @@ func TestHotReloading(t *testing.T) {
 	require.NoError(t, err)
 	defer os.Remove(confPath)
 
-	p, ok := newProgram([]string{confPath})
+	p, ok := NewProgram([]string{confPath})
 	require.Equal(t, true, ok)
 	defer p.close()
 

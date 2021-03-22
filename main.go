@@ -42,7 +42,7 @@ type program struct {
 	done      chan struct{}
 }
 
-func newProgram(args []string) (*program, bool) {
+func NewProgram(args []string) (*program, bool) {
 	k := kingpin.New("rtsp-simple-server",
 		"rtsp-simple-server "+version+"\n\nRTSP server.")
 
@@ -433,7 +433,7 @@ func (p *program) reloadConf() error {
 }
 
 func main() {
-	p, ok := newProgram(os.Args[1:])
+	p, ok := NewProgram(os.Args[1:])
 	if !ok {
 		os.Exit(1)
 	}
