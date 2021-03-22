@@ -1,4 +1,4 @@
-module github.com/aler9/rtsp-simple-server
+module github.com/majoyz/rtsp-simple-server
 
 go 1.15
 
