@@ -1,4 +1,4 @@
-package rtsp-simple-server
+package rtspss
 
 import (
 	"fmt"
