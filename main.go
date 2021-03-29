@@ -1,4 +1,4 @@
-package main
+package rtsp-simple-server
 
 import (
 	"fmt"
@@ -432,10 +432,10 @@ func (p *program) reloadConf() error {
 	return p.createResources(false)
 }
 
-func main() {
-	p, ok := NewProgram(os.Args[1:])
-	if !ok {
-		os.Exit(1)
-	}
-	<-p.done
-}
+// func main() {
+// 	p, ok := NewProgram(os.Args[1:])
+// 	if !ok {
+// 		os.Exit(1)
+// 	}
+// 	<-p.done
+// }
