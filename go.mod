@@ -18,3 +18,4 @@ require (
 )
 
 replace github.com/notedit/rtmp => github.com/aler9/rtmp v0.0.0-20210309202041-2d7177b7300d
+// replace github.com/majoyz/rtsp-simple-server => github.com/majoyz/rtsp-simple-server v0.16.2

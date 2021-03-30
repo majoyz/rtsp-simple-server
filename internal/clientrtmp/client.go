@@ -20,11 +20,11 @@ import (
 	"github.com/notedit/rtmp/av"
 	"github.com/notedit/rtmp/codec/h264"
 
-	"github.com/aler9/rtsp-simple-server/internal/client"
-	"github.com/aler9/rtsp-simple-server/internal/externalcmd"
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/rtmputils"
-	"github.com/aler9/rtsp-simple-server/internal/stats"
+	"github.com/majoyz/rtsp-simple-server/internal/client"
+	"github.com/majoyz/rtsp-simple-server/internal/externalcmd"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/rtmputils"
+	"github.com/majoyz/rtsp-simple-server/internal/stats"
 )
 
 const (

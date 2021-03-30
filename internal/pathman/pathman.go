@@ -7,11 +7,11 @@ import (
 
 	"github.com/aler9/gortsplib/pkg/headers"
 
-	"github.com/aler9/rtsp-simple-server/internal/client"
-	"github.com/aler9/rtsp-simple-server/internal/conf"
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/path"
-	"github.com/aler9/rtsp-simple-server/internal/stats"
+	"github.com/majoyz/rtsp-simple-server/internal/client"
+	"github.com/majoyz/rtsp-simple-server/internal/conf"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/path"
+	"github.com/majoyz/rtsp-simple-server/internal/stats"
 )
 
 // Parent is implemented by program.

@@ -7,7 +7,7 @@ import (
 	"github.com/aler9/gortsplib/pkg/base"
 	"github.com/aler9/gortsplib/pkg/headers"
 
-	"github.com/aler9/rtsp-simple-server/internal/conf"
+	"github.com/majoyz/rtsp-simple-server/internal/conf"
 )
 
 // ErrNoOnePublishing is a "no one is publishing" error.

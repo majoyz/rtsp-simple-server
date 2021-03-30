@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/stats"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/stats"
 )
 
 func formatMetric(key string, value int64, nowUnix int64) string {

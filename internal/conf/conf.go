@@ -12,8 +12,8 @@ import (
 	"golang.org/x/crypto/nacl/secretbox"
 	"gopkg.in/yaml.v2"
 
-	"github.com/aler9/rtsp-simple-server/internal/confenv"
-	"github.com/aler9/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/confenv"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
 )
 
 // Encryption is an encryption policy.

@@ -17,10 +17,10 @@ import (
 	"github.com/aler9/gortsplib/pkg/liberrors"
 	"github.com/pion/rtp"
 
-	"github.com/aler9/rtsp-simple-server/internal/client"
-	"github.com/aler9/rtsp-simple-server/internal/externalcmd"
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/stats"
+	"github.com/majoyz/rtsp-simple-server/internal/client"
+	"github.com/majoyz/rtsp-simple-server/internal/externalcmd"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/stats"
 )
 
 const (

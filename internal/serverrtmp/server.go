@@ -8,8 +8,8 @@ import (
 
 	"github.com/notedit/rtmp/format/rtmp"
 
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/rtmputils"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/rtmputils"
 )
 
 // Parent is implemented by program.

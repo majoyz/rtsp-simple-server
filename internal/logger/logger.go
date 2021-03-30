@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aler9/rtsp-simple-server/internal/syslog"
+	"github.com/majoyz/rtsp-simple-server/internal/syslog"
 )
 
 // Level is a log level.

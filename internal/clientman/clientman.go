@@ -7,14 +7,14 @@ import (
 	"github.com/aler9/gortsplib"
 	"github.com/aler9/gortsplib/pkg/base"
 
-	"github.com/aler9/rtsp-simple-server/internal/client"
-	"github.com/aler9/rtsp-simple-server/internal/clientrtmp"
-	"github.com/aler9/rtsp-simple-server/internal/clientrtsp"
-	"github.com/aler9/rtsp-simple-server/internal/logger"
-	"github.com/aler9/rtsp-simple-server/internal/rtmputils"
-	"github.com/aler9/rtsp-simple-server/internal/serverrtmp"
-	"github.com/aler9/rtsp-simple-server/internal/serverrtsp"
-	"github.com/aler9/rtsp-simple-server/internal/stats"
+	"github.com/majoyz/rtsp-simple-server/internal/client"
+	"github.com/majoyz/rtsp-simple-server/internal/clientrtmp"
+	"github.com/majoyz/rtsp-simple-server/internal/clientrtsp"
+	"github.com/majoyz/rtsp-simple-server/internal/logger"
+	"github.com/majoyz/rtsp-simple-server/internal/rtmputils"
+	"github.com/majoyz/rtsp-simple-server/internal/serverrtmp"
+	"github.com/majoyz/rtsp-simple-server/internal/serverrtsp"
+	"github.com/majoyz/rtsp-simple-server/internal/stats"
 )
 
 // PathManager is implemented by pathman.PathManager.
